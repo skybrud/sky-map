@@ -150,12 +150,13 @@ declare var google:any;
 					point = new google.maps.Marker({
 						position: new google.maps.LatLng($element[0].getAttribute('lat'),$element[0].getAttribute('lng')),
 						icon: {
-							url: $window.location.origin+'/img/6138na/point.png',
+							url: '/img/6138na/point.png',
 							scaledSize: new google.maps.Size(54, 54),
 							origin: new google.maps.Point(0,0),
 							anchor: new google.maps.Point(27,27)
 						},
-						map: map
+						map: map,
+						optimized: false,
 					});
 
 
