@@ -37,7 +37,7 @@ interface Window {
 		function loadApi() {
 			if(!startedLoading) {
 				var script = document.createElement('script');
-				script.src = 'https://maps.googleapis.com/maps/api/js?sensor=false&callback=skyMapApiLoaded';
+				script.src = 'https://maps.googleapis.com/maps/api/js?callback=skyMapApiLoaded';
 				document.body.appendChild(script);	
 
 				startedLoading=true;
