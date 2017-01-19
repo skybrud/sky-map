@@ -23,7 +23,7 @@ interface Window {
 
 			/* also load the infoBox alternative */
 			var script = document.createElement('script');
-			script.src = 'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js';
+			script.src = 'https://cdn.rawgit.com/googlemaps/v3-utility-library/master/infobox/src/infobox.js';
 			
 
 			script.onload = function() {
